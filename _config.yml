@@ -1,1 +1,14 @@
-theme: minima
+theme      : minimal
+
+title      : qqqqyan
+lang       : zh
+description: description
+copyright  : © 2018 - 2023 qqqqyan.github.io All Rights Reserved
+
+nav:
+ - name: 首页
+   link: /
+ - name: 框架
+   link: /code-life/
+ - name: 性能
+   link: /about/
