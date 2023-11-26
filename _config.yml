@@ -1,14 +1,47 @@
-remote_theme: aterenin/minima-reboot
+remote_theme: chesterhow/tale
 
-title      : qqqqyan
-lang       : zh
-description: description
-copyright  : © 2018 - 2023 qqqqyan.github.io All Rights Reserved
+plugins:
+  - jekyll-paginate
+  - jekyll-remote-theme
 
-nav:
- - name: 首页
-   link: /
- - name: 框架
-   link: /framework/
- - name: 性能
-   link: /about/
+# Site settings
+title:          Tale
+description:    "Minimal Jekyll theme for storytellers"
+baseurl:        "/tale"
+url:            "https://chesterhow.github.io"
+
+# Google Analytics
+google_analytics: UA—XXXXXXXX-X
+
+# Author
+author:
+  name:         Chester How
+  url:          https://chester.how
+  email:        chesterhow@gmail.com
+
+# Build settings
+markdown:       kramdown
+include:
+  - _pages
+
+# Assets
+sass:
+  sass_dir:     _sass
+  style:        compressed
+
+# Gems
+plugins:
+  - jekyll-feed
+  - jekyll-paginate
+  - jekyll-seo-tag
+  # - jemoji #Uncomment this to allow emoji in your post
+
+# Permalinks
+permalink:      /:year-:month-:day/:title
+paginate:       5
+
+# Excludes
+exclude: [ Gemfile, Gemfile.lock, tale.gemspec ]
+
+# Disqus (Set to your disqus id)
+disqus:         jekyll-tale
