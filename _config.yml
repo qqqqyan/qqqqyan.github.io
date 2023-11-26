@@ -1,4 +1,4 @@
-theme      : minima
+remote_theme: aterenin/minima-reboot
 
 title      : qqqqyan
 lang       : zh
@@ -9,6 +9,6 @@ nav:
  - name: 首页
    link: /
  - name: 框架
-   link: /code-life/
+   link: /framework/
  - name: 性能
    link: /about/
