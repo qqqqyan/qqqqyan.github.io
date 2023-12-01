@@ -5,10 +5,10 @@ plugins:
   - jekyll-remote-theme
 
 # Site settings
-title:          Tale
-description:    "Minimal Jekyll theme for storytellers"
-url:            "https://chesterhow.github.io"
-tags:           ['Tale']
+title:          qy
+description:    "GithubPage"
+url:            "https://qqqqyan.github.io"
+tags:           ['框架', '性能', '工程化']
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
@@ -16,7 +16,7 @@ google_analytics: UA—XXXXXXXX-X
 # Author
 author:
   name:         Chester How
-  url:          https://chester.how
+  url:          https://github.com/qqqqyan
   email:        chesterhow@gmail.com
 
 # Build settings
