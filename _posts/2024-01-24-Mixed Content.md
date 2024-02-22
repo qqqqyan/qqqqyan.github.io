@@ -1,6 +1,6 @@
 ---
 layout: post
-title: "Mixed Cointent"
+title: "Mixed Content"
 author: "qqqqyan"
 tags: 前沿
 comments: ''
@@ -15,7 +15,8 @@ comments: ''
 ## 场景
   活动测试时，https的活动页面加载了http的小游戏链接，因此在chrome上无法运行，而在手机中仍可运行。
 ## 解决
-  浏览器的限制，因此需要把资源换成https的，再做旧项目升级：把需要加载的内容升级为https后，对项目中大量http不方便全部修改，因此使用此meta提示浏览器自动以https协议加载数据
+  1. 浏览器的限制，因此需要把资源换成https的，再做旧项目升级：把需要加载的内容升级为https后，对项目中大量http不方便全部修改，因此使用此meta提示浏览器自动以https协议加载数据
   ``` html
   <meta http-equiv="Content-Security-Policy" content="upgrade-insecure-requests" />
   ```
+  2. nginx反向代理
