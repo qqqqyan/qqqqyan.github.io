@@ -5,7 +5,7 @@ layout: default
 <div class="catalogue">
   {% for post in site.posts %}
     {% if post.sticky %}
-      {% include catalogue_item.html sticky='true' %}
+      {% include catalogue_item.html sticky='true' | truncatewords: 60 %}
     {% endif %}
   {% endfor %}
 
