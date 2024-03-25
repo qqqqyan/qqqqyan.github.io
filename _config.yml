@@ -9,6 +9,7 @@ title:          qy
 description:    "GithubPage"
 url:            "https://qqqqyan.github.io"
 tags:           ['框架', '性能', '工程化', '前沿', '核心知识']
+excerpt_separator:  '<!-- excerpt -->'
 
 # Google Analytics
 google_analytics: UA—XXXXXXXX-X
