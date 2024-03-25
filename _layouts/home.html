@@ -5,11 +5,14 @@ layout: default
 <div class="catalogue">
   {% for post in site.posts %}
     {% if post.sticky %}
-      {% include catalogue_item.html sticky='true' | truncatewords: 60 %}
+      {% include catalogue_item.html sticky='true' %}
     {% endif %}
   {% endfor %}
 
   {% for post in paginator.posts %}
+    {% assign content_lines = post.content | number_of_lines %}
+    {% capture truncated_content %}{% if content_lines > 3 %}{{ post.content | truncatewords: 30 }}...{% else %}{{ post.content }}{% endif %}{% endcapture %}
+    {% assign post.content = truncated_content %}
     {% include catalogue_item.html %}
   {% endfor %}
 </div>
