@@ -3,7 +3,7 @@ layout: post
 title: "【monorepo】lerna"
 author: "qqqqyan"
 tags: 工程化
-comments: ''
+excerpt: lerna的使用...
 ---
 
 

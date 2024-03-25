@@ -3,7 +3,7 @@ layout: post
 title: "Chrome Memory Saver"
 author: "qqqqyan"
 tags: 前沿
-comments: ''
+excerpt: Chrome Memory Saver是什么，怎么查看页面状态...
 ---
 
 # Chrome Memory Saver
